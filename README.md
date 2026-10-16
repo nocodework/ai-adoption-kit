@@ -40,7 +40,7 @@ ai-adoption-kit  → jak wprowadzić AI (plan, mapa, polityka)
 ### Claude (aplikacja albo claude.ai)
 
 1. Pobierz paczki ZIP z zakładki [Releases](https://github.com/nocodework/ai-adoption-kit/releases) (jeden ZIP na skill).
-2. W ustawieniach Claude znajdź sekcję skilli (Skills) i wgraj ZIP. Skille działają na płatnych planach Claude.
+2. W ustawieniach Claude znajdź sekcję skilli (Skills) i wgraj ZIP. Wgranie skilla działa także na darmowym koncie claude.ai.
 3. W nowej rozmowie napisz: **„zrób plan wdrożenia AI dla mojej firmy”**.
 
 ### Claude Code: jedna komenda
