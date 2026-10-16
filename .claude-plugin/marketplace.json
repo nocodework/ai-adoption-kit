@@ -1,0 +1,12 @@
+{
+  "name": "nocodework",
+  "description": "Open source od NoCodeWork: skille AI dla firm.",
+  "owner": { "name": "NoCodeWork", "url": "https://nocodework.io" },
+  "plugins": [
+    {
+      "name": "ai-adoption-kit",
+      "source": "./",
+      "description": "Plan AI na 90 dni: plan wdrożenia, mapa procesów i polityka AI dla Twojej firmy."
+    }
+  ]
+}

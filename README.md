@@ -43,7 +43,24 @@ ai-adoption-kit  → jak wprowadzić AI (plan, mapa, polityka)
 2. W ustawieniach Claude znajdź sekcję skilli (Skills) i wgraj ZIP. Skille działają na płatnych planach Claude.
 3. W nowej rozmowie napisz: **„zrób plan wdrożenia AI dla mojej firmy”**.
 
-### Claude Code
+### Claude Code: jedna komenda
+
+Wpisz w Claude Code:
+
+```
+/plugin install ai-adoption-kit --marketplace nocodework/ai-adoption-kit
+```
+
+Na starszej wersji Claude Code (przed 2.1.275) dwie komendy:
+
+```
+/plugin marketplace add nocodework/ai-adoption-kit
+/plugin install ai-adoption-kit@nocodework
+```
+
+Możesz też po prostu napisać Claude Code: **„zainstaluj skille z github.com/nocodework/ai-adoption-kit”**. Potem: „zrób plan wdrożenia AI dla mojej firmy”.
+
+Bez pluginów, ręcznie:
 
 ```bash
 git clone https://github.com/nocodework/ai-adoption-kit.git
@@ -51,7 +68,7 @@ cd ai-adoption-kit
 ./install.sh
 ```
 
-Potem w Claude Code: „zrób plan wdrożenia AI dla mojej firmy”. Aktualizacja: `git pull && ./install.sh`.
+Aktualizacja: `git pull && ./install.sh`.
 
 ### ChatGPT, Gemini, Copilot
 

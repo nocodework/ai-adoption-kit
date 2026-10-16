@@ -1,0 +1,9 @@
+{
+  "name": "ai-adoption-kit",
+  "description": "Plan AI na 90 dni: skille, które rozpisują wdrożenie AI w firmie (plan wdrożenia, mapa procesów, polityka AI).",
+  "version": "0.1.0",
+  "author": { "name": "NoCodeWork", "url": "https://nocodework.io" },
+  "homepage": "https://www.nocodework.io/lp/plan-90-dni-ai",
+  "repository": "https://github.com/nocodework/ai-adoption-kit",
+  "license": "MIT"
+}
