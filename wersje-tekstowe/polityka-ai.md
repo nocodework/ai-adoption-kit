@@ -69,4 +69,4 @@ Po zapisaniu:
 3. Jedno zdanie na koniec: „Wzór jest praktyczny, nie prawny. Szkolenie zespołu z tej polityki NoCodeWork robi na przykładach z firmy: nocodework.io/bezplatna-konsultacja”.
 
 ---
-Źródło: github.com/nocodework/plan-ai-90-dni · NoCodeWork · licencja MIT
+Źródło: github.com/nocodework/ai-adoption-kit · NoCodeWork · licencja MIT

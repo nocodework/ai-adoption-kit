@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Instaluje (albo aktualizuje) skille „Plan AI na 90 dni” w folderze skilli Claude Code.
+# Instaluje (albo aktualizuje) skille ai-adoption-kit („Plan AI na 90 dni”) w folderze skilli Claude Code.
 #
 #   ./install.sh            # instaluje do ~/.claude/skills
 #   ./install.sh /inny/dir  # instaluje do wskazanego folderu
@@ -12,7 +12,7 @@ SRC="$(cd "$(dirname "$0")" && pwd)/skills"
 
 if [ ! -d "$SRC" ]; then
   echo "błąd: nie widzę folderu skills/ obok tego skryptu ($SRC)." >&2
-  echo "Uruchom install.sh z wnętrza repozytorium plan-ai-90-dni." >&2
+  echo "Uruchom install.sh z wnętrza repozytorium ai-adoption-kit." >&2
   exit 1
 fi
 
